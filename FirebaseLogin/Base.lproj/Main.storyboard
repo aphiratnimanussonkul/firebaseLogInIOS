@@ -12,11 +12,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="SignInViewController" customModule="FirebaseLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mCx-dN-1dv">
-                                <rect key="frame" x="15" y="15" width="384" height="778"/>
+                                <rect key="frame" x="15" y="59" width="384" height="788"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="SYc-QE-OOa">
                                         <rect key="frame" x="0.0" y="20" width="384" height="267.5"/>
@@ -38,13 +38,13 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z40-NR-aBO">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z40-NR-aBO">
                                                         <rect key="frame" x="0.0" y="60" width="344" height="40"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="dCS-H0-gcR"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -62,7 +62,7 @@
                                                         <rect key="frame" x="0.0" y="55" width="83" height="30"/>
                                                         <state key="normal" title="Sign Up"/>
                                                         <connections>
-                                                            <segue destination="Ixp-o7-690" kind="show" id="ajH-IZ-JcI"/>
+                                                            <segue destination="Ixp-o7-690" kind="presentation" id="2nZ-37-ESy"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -143,8 +143,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="pP9-Mt-AXr"/>
                     <connections>
-                        <outlet property="labelName" destination="XG6-lP-7LV" id="Meb-K2-oXW"/>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="signOutSegue" id="166-eR-jgg"/>
+                        <outlet property="labelName" destination="COH-He-bpu" id="iaS-3C-fn5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GLa-Av-fCA" sceneMemberID="firstResponder"/>
@@ -198,7 +197,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="48" height="30"/>
                                                         <state key="normal" title="Cancel"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="show" id="0UE-1r-o3G"/>
+                                                            <action selector="cancelButtonTapped:" destination="Ixp-o7-690" eventType="touchUpInside" id="mjN-bi-RUn"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxi-qx-1IJ">
@@ -246,11 +245,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7pY-Hi-enT" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1080" y="533"/>
+            <point key="canvasLocation" x="909" y="459"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="GLb-Lb-LyH"/>
-        <segue reference="0UE-1r-o3G"/>
+        <segue reference="BtP-Ga-jNR"/>
     </inferredMetricsTieBreakers>
 </document>

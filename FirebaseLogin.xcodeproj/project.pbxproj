@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		025BF4324CCA795494C7872D /* libPods-FirebaseLogin-FirebaseLoginUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC535AE26BBEC24CA0828AE /* libPods-FirebaseLogin-FirebaseLoginUITests.a */; };
 		07571A57224118DD285D1FCF /* libPods-FirebaseLoginTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C520F6ADF3649B1FFCF593 /* libPods-FirebaseLoginTests.a */; };
+		6B06F77023EBFB4500F5B17E /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B06F76F23EBFB4500F5B17E /* AlertController.swift */; };
 		6B18F62923EBCE210059D721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B18F62823EBCE210059D721 /* AppDelegate.swift */; };
 		6B18F62B23EBCE210059D721 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B18F62A23EBCE210059D721 /* SceneDelegate.swift */; };
 		6B18F63023EBCE210059D721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B18F62E23EBCE210059D721 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		352F41488C28FFF32EDC391C /* Pods-FirebaseLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseLogin.release.xcconfig"; path = "Target Support Files/Pods-FirebaseLogin/Pods-FirebaseLogin.release.xcconfig"; sourceTree = "<group>"; };
 		3E6E95429C719E820B03CFF2 /* Pods-FirebaseLogin-FirebaseLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseLogin-FirebaseLoginUITests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseLogin-FirebaseLoginUITests/Pods-FirebaseLogin-FirebaseLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4CFF8ED070D29D2BEAF8940D /* Pods-FirebaseLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseLoginTests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseLoginTests/Pods-FirebaseLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B06F76F23EBFB4500F5B17E /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		6B18F62523EBCE210059D721 /* FirebaseLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B18F62823EBCE210059D721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B18F62A23EBCE210059D721 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				6B18F65B23EBCF0C0059D721 /* SignOutViewController.swift */,
 				6B18F65D23EBE58B0059D721 /* SignInViewController.swift */,
 				6B18F65F23EBE5AC0059D721 /* SignUpViewController.swift */,
+				6B06F76F23EBFB4500F5B17E /* AlertController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -182,7 +185,6 @@
 				AA0117F262DC2BFAABE22806 /* Pods-FirebaseLoginTests.debug.xcconfig */,
 				4CFF8ED070D29D2BEAF8940D /* Pods-FirebaseLoginTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -394,6 +396,7 @@
 				6B18F62923EBCE210059D721 /* AppDelegate.swift in Sources */,
 				6B18F65C23EBCF0C0059D721 /* SignOutViewController.swift in Sources */,
 				6B18F62B23EBCE210059D721 /* SceneDelegate.swift in Sources */,
+				6B06F77023EBFB4500F5B17E /* AlertController.swift in Sources */,
 				6B18F66023EBE5AC0059D721 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
